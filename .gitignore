@@ -3,3 +3,7 @@ __pycache__/
 .env
 node_modules/
 *.sqlite
+
+# Python test artefacts
+**/.pytest_cache/
+**/.coverage
