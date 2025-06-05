@@ -20,6 +20,12 @@ pip install -r requirements.txt
 uvicorn core/crisis_map/backend.app:app --reload
 ```
 
+## Running Tests
+
+1. `pip install -r requirements-dev.txt`
+2. `pre-commit install && pre-commit run --all-files`
+3. `pytest -q` # or `make test`
+
 ## Requesting new modules
 
 Open an issue or discussion describing the desired module. Tag it with `help wanted` if you'd like collaborators.
