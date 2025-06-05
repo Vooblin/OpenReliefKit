@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  crisis_map:
+    build: ./core/crisis_map
+    ports:
+      - "8000:8000"
+  comms_hub:
+    build: ./core/comms_hub
+    ports:
+      - "3001:3001"
