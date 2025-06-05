@@ -1,13 +1,17 @@
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 
-
 app = FastAPI()
 
 
 @app.get("/")
 def read_root():
     return {"message": "Crisis Map API"}
+
+
+@app.get("/health")
+def health_check():
+    return {"status": "ok"}
 
 
 @app.get("/ui", response_class=HTMLResponse)
