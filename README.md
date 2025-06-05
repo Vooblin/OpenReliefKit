@@ -1,5 +1,7 @@
 # OpenReliefKit
 
+![CI](https://github.com/OpenRelief/OpenReliefKit/actions/workflows/ci.yml/badge.svg)
+
 OpenReliefKit provides a ready-to-extend toolkit for rapid disaster response. Our goal is to lower the barrier for communities and NGOs to deploy essential tools in the first hours after a disaster. Clone the repo and spin up a communication hub, crisis map, and resource tracker in minutes.
 
 ## Quick start
